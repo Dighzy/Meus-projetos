@@ -4,3 +4,4 @@
 
 - Pagina inicial instagram
 - Projeto desafio profissional AEP
+- Projeto Netflix(Gameflix)

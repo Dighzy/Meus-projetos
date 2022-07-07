@@ -1,0 +1,110 @@
+:root{
+    --vermelho: rgb(11, 180, 172) ;
+    --preto:#141414;
+
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Elementos Base*/
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+.body .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between ;
+  }
+.logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial black';
+    font-size: 40px;
+}
+
+.titles a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+.titles a:hover{
+    color: #aaa;
+}
+.titles i:hover{
+    color: #aaa;
+    cursor: pointer;
+}
+
+/*Jogo principal*/
+.game-principal{
+    color: #fff;
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('https://i.pinimg.com/originals/48/33/a0/4833a01a75f1cb302c12f84c62da0475.png');
+    
+    height: 400px;
+    background-size: cover;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.game-principal .description{
+    margin-bottom: 40px;
+    /*margin-right: 263px;*/
+}
+.title-god{
+    margin-top: 15%;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.botao{
+    background-color: rgba(0, 0, 0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 40px;
+    margin-right: 12px;
+    font-size: 12px;
+    
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.botao i{
+    margin-right: 6px;
+    
+}
+.container{
+    margin-left: 20px;
+}
+
+.game-principal .container{
+    width: 60%;
+
+}
+
+.box-game{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrosel-games{
+    margin-top: 5px;
+}
