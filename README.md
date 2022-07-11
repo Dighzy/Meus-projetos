@@ -2,6 +2,7 @@
 
 **Bem vindo aos meus projetos inicias nele temos incluso:** 
 
-- Pagina inicial instagram
-- Projeto desafio profissional AEP
-- Projeto Netflix(Gameflix)
+- Projeto Pagina inicial instagram
+- Projeto Desafio profissional AEP
+- Projeto Netflix (Gameflix)
+- Projeto Snake game (WaterSnake game)
